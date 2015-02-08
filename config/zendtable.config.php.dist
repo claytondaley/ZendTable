@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * You do not need to edit below this line
+ */
+return array(
+    'form_elements' => array(
+        'invokables' => array(
+            'table'  => 'DaleyTable\Table',
+            'link'   => 'DaleyTable\Element\Link',
+        )
+    ),
+    'view_helpers' => array(
+        'invokables' => array(
+            'formlink'          => 'DaleyTable\View\Helper\FormLink',
+            'formspan'          => 'DaleyTable\View\Helper\FormSpan',
+            'table'             => 'DaleyTable\View\Helper\Table',
+            'tableheaderrow'    => 'DaleyTable\View\Helper\TableHeaderRow',
+            'tableheadercell'   => 'DaleyTable\View\Helper\TableHeaderCell',
+            'tablestaticrow'    => 'DaleyTable\View\Helper\TableStaticRow',
+            'tablestaticcell'   => 'DaleyTable\View\Helper\TableStaticCell',
+        )
+    ),
+);
