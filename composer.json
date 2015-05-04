@@ -19,8 +19,6 @@
       "url": "https://github.com/claytondaley/zf2"
     }
   ],
-  "minimum-stability": "dev",
-  "prefer-stable": true,
   "require": {
     "php": ">=5.3.23",
     "zendframework/zendframework": "dev-table as 2.4"
