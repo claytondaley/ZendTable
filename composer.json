@@ -10,7 +10,7 @@
   "extra": {
     "branch-alias": {
       "dev-master": "2.0.0",
-      "dev-master": "2.0.x-dev"
+      "dev-develop": "2.0.x-dev"
     }
   },
   "repositories": [
@@ -23,7 +23,7 @@
   "prefer-stable": true,
   "require": {
     "php": ">=5.3.23",
-    "zendframework/zendframework": "dev-table as dev-master"
+    "zendframework/zendframework": "dev-table as 2.4"
   },
   "target-dir": "",
   "autoload": {
