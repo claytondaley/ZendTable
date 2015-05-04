@@ -9,8 +9,7 @@
   "homepage": "https://github.com/claytondaley/ZendTable",
   "extra": {
     "branch-alias": {
-      "dev-master": "2.0.0",
-      "dev-develop": "2.0.x-dev"
+      "dev-master": "2.x-dev"
     }
   },
   "repositories": [
