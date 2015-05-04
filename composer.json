@@ -1,33 +1,34 @@
 {
   "name": "claytondaley/zend-table",
-  "description": " ",
+  "description": "Create and render tables using the fieldset (form) interface and lists of objects.",
   "license": "GPL-v3.0",
   "keywords": [
     "zf2",
     "table"
   ],
-  "homepage": "https://github.com/claytondaley/zend-table",
-  "autoload": {
-    "psr-4": {
-      "DaleyTable\\": ""
+  "homepage": "https://github.com/claytondaley/ZendTable",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0.0",
+      "dev-master": "2.0.x-dev"
     }
   },
-  "target-dir": "",
-  "minimum-stability": "dev",
-  "prefer-stable": true,
   "repositories": [
     {
       "type": "vcs",
       "url": "https://github.com/claytondaley/zf2"
     }
   ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "require": {
     "php": ">=5.3.23",
     "zendframework/zendframework": "dev-table as dev-master"
   },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "2.4.x-dev"
+  "target-dir": "",
+  "autoload": {
+    "psr-4": {
+      "DaleyTable\\": ""
     }
   }
 }
